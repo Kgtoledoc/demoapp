@@ -9,7 +9,7 @@ Router.get('/', (req, res) => {
     iam_apikey: 'Sxf9Lf7l9KCI3kCyHviyKwD1d1ahL5Snkd7pNU8Z2sB0',
   });
   
-  var images_file = fs.createReadStream('image.jpg');
+  var images_file = fs.createReadStream('./public/image.jpg');
   var classifier_ids = ["Car_Model_2032301616"];
   var threshold = 0.2;
   
