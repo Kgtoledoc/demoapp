@@ -12,6 +12,8 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "express-formidable": "^1.0.0",
     "fs": "0.0.1-security",
     "http": "0.0.0",
     "nodemon": "^1.18.4",

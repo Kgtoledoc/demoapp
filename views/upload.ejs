@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+
+        body {
+          text-align: center;
+          background-color: beige;
+          font-family: 'Courier New', Courier, monospace;
+        }
+      </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,7 +17,11 @@
 <body>
   <a href="/">Inicio</a>
   
-  <form action="/response" method="POST">
+  <form action="/upload/finish" method="POST" enctype="multipart/form-data">
+    <label for="title"> Subir imagen</label>    
+    <input type="file" name="archivo" id="archivo">
+    <br>
+    <input type="submit" value="Guardar">
     
   </form>
   
